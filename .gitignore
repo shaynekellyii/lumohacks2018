@@ -1,5 +1,3 @@
-build.gradle
-*/build.gradle
 *.iml
 .gradle
 /local.properties
