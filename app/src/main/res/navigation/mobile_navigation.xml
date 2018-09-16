@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/community_fragment">
+
+    <fragment
+        android:id="@+id/community_fragment"
+        android:name="com.shaynek.meshio.ui.CommunityFragment"
+        android:label="Community" />
+    <fragment
+        android:id="@+id/placeholderFragment2"
+        android:name="com.shaynek.meshio.ui.ProFragment"
+        android:label="PlaceholderFragment2" />
+    <fragment
+        android:id="@+id/placeholderFragment3"
+        android:name="com.shaynek.meshio.ui.ResourcesFragment"
+        android:label="PlaceholderFragment3" />
+</navigation>
